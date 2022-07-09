@@ -1,0 +1,11 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+rvfc.Rproj
+VFC_opencv.zip
+inst/include/original/*
+src/*.o
+src/*.so
+src/*.dll
+src/Makevars

@@ -1,0 +1,21 @@
+Package: rvfc
+Type: Package
+Title: Experimental R bindings for 'Vector Field Consensus' with OpenCV
+Version: 0.0.0.9001
+Authors@R: c(person("Andrew", "Brown", role = c("cre"), email = "brown.andrewg@gmail.com"),
+             person("Jeroen", "Ooms", role = c("ctb"), email = "jeroen@berkeley.edu", comment = c(Contributions = "Rcpp configuration and cv::Mat-related glue code from {opencv}.", ORCID = "0000-0002-4035-0289")))
+Maintainer: Andrew G. Brown <brown.andrewg@gmail.com>
+Description: Vector field consensus (VFC) is an efficient algorithm for establishing robust point correspondences between two sets of points. 
+    The C++ / OpenCV source code for the VFC algorithm can be downloaded from GitHub: <https://github.com/jiayi-ma/VFC/blob/master/VFC_opencv.zip>. 
+    Several elements of the opencv package configuration have been utilized in this package for loading the OpenCV libraries and facilitating compilation (c/o Jeroen Oooms).
+LinkingTo: Rcpp
+Imports: Rcpp
+Enhances: opencv
+NeedsCompilation:	yes
+SystemRequirements:	OpenCV (>=3): libopencv-dev (Debian, Ubuntu) or opencv-devel (Fedora)
+BugReports:	https://github.com/brownag/rvfc/issues
+License: MIT + file LICENSE
+URL: https://humus.rocks/rvfc
+Encoding: UTF-8
+RoxygenNote: 7.2.0
+Roxygen: list(markdown = TRUE)

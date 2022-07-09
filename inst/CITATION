@@ -1,0 +1,16 @@
+citHeader("To cite rvfc in publications use:")
+
+citEntry(
+  entry    = "Article",
+  title    = "Robust Point Matching via Vector Field Consensus",
+  author   = "Jiayi Ma, Ji Zhao, Jinwen Tian, Alan Yuille, and Zhuowen Tu.",
+  journal  = "IEEE Transactions on Image Processing",
+  year     = 2014,
+  volume   = "23",
+  number   = "4",
+  pages    = "1706-1721",
+  url      = "10.1109/TIP.2014.2307478",
+  textVersion = paste(
+    'Jiayi Ma, Ji Zhao, Jinwen Tian, Alan Yuille, and Zhuowen Tu. (2014) "Robust Point Matching via Vector Field Consensus", IEEE Transactions on Image Processing, 23(4), pp. 1706-1721. doi: 10.1109/TIP.2014.2307478.'
+  )
+)
