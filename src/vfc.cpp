@@ -136,7 +136,7 @@ bool VFC::selectSubset() {
 	int cnt = 0;
 	int iter = 0;
 	while (cnt < _numCtrlPts && iter < _numCtrlPts*3){
-		int idx = (rand() % _numPt);
+		int idx = ((int)R::runif(0,32767) % _numPt);
 		float dist = float(inf);
 		for (unsigned int i = 0; i < _ctrlPts.size(); i++){
 			float tmp = fabs(_ctrlPts[i].x - _X[idx].x) + fabs(_ctrlPts[i].y - _X[idx].y);
